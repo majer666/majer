@@ -1,0 +1,101 @@
+/* logo模块 */
+.logo h1{
+    float: left;
+}
+.secondkill{
+    float: left;
+    width: 84px;
+    height: 32px;
+    padding: 4px 13px;
+    border-left: 2px solid #b1191a;
+    margin: 13px;
+}
+.navli{
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+.navhead ul li{
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 14px 28px;
+}
+.navlist ul li{
+    float: left;
+    font-size: 14px;
+    margin: 17px 22px 14px 22px;
+}
+.navlist ul li:last-child::after{
+    content: '\e91e';
+    font-family: 'icomoon';
+    margin: 5px;
+}
+.buying{
+    height: 119px;
+    margin-bottom: 15px;
+    background: url(../upload/list01.png) no-repeat;
+}
+.buy_list ul{
+    margin-bottom: 280px;
+}
+.buy_list ul li{
+    float: left;
+    width: 290px;
+    height: 469px;
+    margin-right: 12px;
+    border: 1px solid transparent;
+}
+.image{
+    height: 294px;
+}
+.buy_list ul li:nth-child(4n){
+    margin-right: 0;
+}
+.buy_list ul li:hover{
+    border: 1px solid #e12228;
+}
+.li_content{
+    padding-left: 12px;
+    padding-top: 5px;
+}
+.descrip{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.price{
+    height: 32px;
+}
+.price span:first-child{
+    font-size: 22px;
+    color: #e60012;
+    font-weight: 700;
+}
+.price span:last-child{
+    font-size: 14px;
+    color: #ababab;
+    text-decoration: line-through;
+}
+.amount{
+    height: 28px;
+    line-height: 28px;
+}
+.amount>div{
+    float: left;
+    font-size: 14px;
+}
+.process{
+    width: 132px;
+    height: 12px;
+    background-color: #ed282e;
+    border-radius: 6px;
+    margin: 8px 12px;
+}
+.atonce{
+    height: 51px;
+    line-height: 51px;
+    text-align: center;
+    background-color: #b1191a;
+    font-size: 20px;
+    font-family: 宋体;
+    color: #fff;
+}

@@ -1,0 +1,130 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.style_red{
+    color: #c81623;
+}
+header{
+    height: 82px;
+    padding-top: 16px;
+    border-bottom: 2px solid #b1191a;
+}
+.regis_hd{
+    height: 40px;
+    line-height: 40px;
+    background-color: #ececec;
+    padding-left: 10px;
+    margin-top: 20px;
+    border: 1px solid #dfdfdf;
+}
+.regis_hd h2{
+    float: left;
+    font-size: 18px;
+    font-weight: 400;   
+}
+.regis_hd h4{
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.regis_bd{
+    height: 480px;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+}
+.regis_list{
+    width: 580px;
+    height: 100%;
+    padding-top: 50px;
+    margin: 0px auto;   
+}
+.regis_list ul li{
+    margin-bottom: 20px;
+}
+label{
+    display: inline-block;
+    width: 88px;
+    font-size: 14px;
+    text-align: right;
+}
+.inp{
+    display: inline-block;
+    width: 240px;
+    height: 35px;
+    border: 1px solid #999999;
+    margin-right: 10px;
+}
+.erro_icon,.right_icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.erro_icon{
+    background: url(../images/error.png) no-repeat;
+}
+.erro{
+    height: 35px;
+    font-size: 12px;
+    color: #df3033;
+}
+.right_icon{
+    background: url(../images/success.png) no-repeat;
+}
+.right{
+    height: 35px;
+    font-size: 12px;
+    color: #40b83f;
+}
+.safe{
+    margin-left: 165px;
+    margin-top: -10px;
+}
+.safe em{
+    display: inline-block;
+    width: 34px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+.ruo{
+    background-color: #de1111;
+}
+.zhong{
+    background-color: #40b83f;
+}
+.qiang{
+    background-color: #f79100;
+}
+.agree{
+    margin-left: 90px;
+    margin-top: 42px;
+}
+.agree a {
+    color: #1ba1e6;
+}
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin: 30px 0 0 100px;
+}
+/* 页面底部 */
+.mod_copyright{
+    text-align: center;
+    padding-top: 20px;
+}
+.mod_copyright .links{
+    margin-bottom: 15px;
+}
+.links em{
+    margin: 0 15px;
+}
+
